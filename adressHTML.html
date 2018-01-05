@@ -1,0 +1,52 @@
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>Attempt at an adressbook no 50041</title>
+	<link rel="stylesheet" type="text/css" href="adressCSS.css">
+	</head>
+<body>
+	<h1>Contacts</h1>
+	<table id="contacts-table">
+		<tr id="contacts-head">
+			<th class="hideme">ID</th>
+			<th>First name</th>
+			<th>Last name</th>
+			<th>Email</th>
+			<th>Adress</th>
+			<th> </th>
+		</tr>
+	</table>
+
+	<form id="contacts-form">
+		<div class="item text">
+			<label>First name:</label>
+			<div class="field"><input type="text" name="first_name" /></div>
+		</div>
+		<div class="item text">
+			<label>Last name:</label>
+			<div class="field"><input type="text" name="last_name" /></div>
+		</div>
+		<div class="item text">
+			<label>Email:</label>
+			<div class="field"><input type="text" name="email" />
+			</div>	
+		</div>
+		<div class="item text">
+			<label>Adress:</label>
+			<div class="field"><input type="text" name="adress" />
+			</div>
+		</div>
+		<div class="button-wrapper">
+			<div class="item button">
+				<div class="field"><input type="button" id="contacts-op-discard" value="Discard" /></div>
+			</div>
+		<div class="item button button-default">
+				<div class="field"><input type="submit" id="contacts-op-save" value="Save" /></div>
+			</div>
+		</div>
+		<input type="hidden" name="id_entry" value="0" />
+	</form>
+	<script src="adressJS.js"></script>
+	
+</body>
+</html>

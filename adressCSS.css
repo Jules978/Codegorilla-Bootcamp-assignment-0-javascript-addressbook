@@ -1,0 +1,26 @@
+
+h1 { color: #667292 }
+a { color: #667292; cursor: pointer; }
+a:link, a:visited { text-decoration: none; color: #667292; }
+a:hover, a:active { text-decoration: underline; color: #667292; }
+body {background-color: #e7eff6	;}
+body { font: 12px/18px "Lucida Console", Monaco, sans-serif; }
+
+
+table th.hideme { display: none; }
+#contacts-table { border-collapse: collapse; }
+#contacts-table, #contacts-table th, #contacts-table td { padding: 10px 10px; text-align: left; border: 0px solid #667292; }
+#contacts-table th { font-weight: bold; font-size: 14px; color: #667292; }
+#contacts-table td { color: #667292; }
+#contacts-table tr:nth-child(2n) { background: 	#adcbe3; }
+
+#contacts-form { padding: 25px; }
+.text input, .button input { padding: 5px; margin: 0; border: 0px solid #667292;}
+#contacts-form .item { margin: 3px 0; }
+#contacts-form label, #contacts-form .field { display: inline-block; color: #667292; }
+#contacts-form label { width: 110px; font-weight: bold; text-align: right; color: #667292; }
+#contacts-form .text input { width: 176px; padding: 3px; }
+#contacts-form .button { display: inline-block; }
+#contacts-form .button-wrapper { padding-left: 110px; }
+.button input { padding: 4px 8px; color: #667292; background-color: 	#adcbe3; }
+.button-default input {  color: #667292; background-color: 	#adcbe3; }
